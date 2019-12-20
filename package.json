@@ -1,0 +1,54 @@
+{
+  "name": "astro-vue-boilerplate",
+  "description": "Astro Vue Boilerplate",
+  "version": "1.0.0",
+  "author": "Rocket Communications",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "vue": "^2.6.10",
+    "@astrouxds/rux-button": "^4.0.0",
+    "@astrouxds/rux-clock": "^4.0.0",
+    "@astrouxds/rux-global-status-bar": "^4.0.0",
+    "@astrouxds/rux-icon": "^4.0.0",
+    "@astrouxds/rux-log": "^4.0.0",
+    "@astrouxds/rux-modal": "^4.0.0",
+    "@astrouxds/rux-monitoring-icon": "^4.0.0",
+    "@astrouxds/rux-notification": "^4.0.0",
+    "@astrouxds/rux-pop-up-menu": "^4.0.0",
+    "@astrouxds/rux-progress": "^4.0.0",
+    "@astrouxds/rux-push-button": "^4.0.0",
+    "@astrouxds/rux-segmented-button": "^4.0.0",
+    "@astrouxds/rux-slider": "^4.0.0",
+    "@astrouxds/rux-status": "^4.0.0-3",
+    "@astrouxds/rux-utils": "^4.0.0",
+    "@astrouxds/rux-tabs": "^4.0.0",
+    "lit-element": "^2.0.1",
+    "lit-html": "^1.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-plugin-eslint": "^3.11.0",
+    "@vue/cli-service": "^3.11.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}
