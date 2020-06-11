@@ -1,5 +1,6 @@
 var path = require('path')
 var webpack = require('webpack')
+var openInEditor = require('launch-editor-middleware')
 
 module.exports = {
   entry: './src/main.js',
@@ -56,7 +57,10 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
     noInfo: true,
-    overlay: true
+    overlay: true,
+    before (app) {
+      app.use('/__open-in-editor', openInEditor('code')) // Opens in VSCode
+    }
   },
   performance: {
     hints: false
