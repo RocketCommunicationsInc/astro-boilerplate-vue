@@ -18,5 +18,5 @@ export default {
 </script>
 
 <style lang="css">
-@import '/src/assets/astro.core.min.css';
+@import '/node_modules/astroux-static/css/astro.core.min.css';
 </style>
