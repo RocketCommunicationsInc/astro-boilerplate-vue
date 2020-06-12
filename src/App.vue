@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-     <rux-global-status-bar appName="Astro Vue Bootstrap">
+     <rux-global-status-bar appName="Astro Vue Boilerplate">
       <rux-clock></rux-clock>
     </rux-global-status-bar>
   </div>
@@ -9,14 +9,13 @@
 <script>
 export default {
   name: 'app',
-  data () {
-    return {
-      msg: 'Welcome to Your Astro Vue.js App'
-    }
-  }
 }
 </script>
 
 <style lang="css">
-@import '/node_modules/astroux-static/css/astro.core.min.css';
+@import '~astroux-static/css/astro.core.css';
+
+/* if using CopyWebpackPlugin to load all the astroux-static stuff */
+/* @import '/css/astro.core.css'; */
+
 </style>
