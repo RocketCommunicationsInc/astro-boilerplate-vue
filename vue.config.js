@@ -18,7 +18,9 @@ module.exports = {
   },
   chainWebpack: config => {
     config.module
-      .rule('images')
-        .test(/\.(jpe?g|png|gif|ico)$/i)
+      .rule('favicon')
+      .test(/\.ico$/)
+      .use('url-loader')
+        .loader('url-loader')
   }
 }
