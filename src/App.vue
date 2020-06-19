@@ -13,9 +13,9 @@ export default {
 </script>
 
 <style lang="css">
-@import '~astroux-static/css/astro.core.css';
+/* @import '~astroux-static/css/astro.core.css'; */
 
 /* if using CopyWebpackPlugin to load all the astroux-static stuff */
-/* @import '/css/astro.core.css'; */
+@import '/css/astro.core.css';
 
 </style>
